@@ -1,0 +1,6 @@
+train: D:\tyreDetetction\Dataset\Tyre_error_proofing.v15i.yolov9\train\images
+val: D:\tyreDetetction\Dataset\Tyre_error_proofing.v15i.yolov9\valid\images
+test: D:\tyreDetetction\Dataset\Tyre_error_proofing.v15i.yolov9\test\images
+
+nc: 4
+names: ['80_label', 'black_wheel', 'simple_wheel', 'white_wheel']
