@@ -6,7 +6,7 @@ import uvicorn
 
 app = FastAPI(title="Tyre Detection API")
 
-model = YOLO("runs/detect/TyreDetection_Project/exp_v1_yolov8s/weights/best.pt")
+model = YOLO("best.pt")
 
 @app.get("/")
 def read_root():
