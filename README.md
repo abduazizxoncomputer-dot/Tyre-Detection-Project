@@ -28,3 +28,9 @@ This project includes a real-time API built with FastAPI to serve the model.
    pip install -r requirements.txt
 
    python main.py
+   
+## 🐳 How to Run with Docker
+To build and run this project in a container:
+1. **Build:** `docker build -t tyre-detection .`
+2. **Run:** `docker run -p 8000:8000 tyre-detection`
+3. **Open:** Go to `http://localhost:8000/docs` to test the API.
